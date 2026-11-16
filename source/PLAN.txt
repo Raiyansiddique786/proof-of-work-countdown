@@ -1,0 +1,33 @@
+PROOF OF WORK — My Countdown Project Launch
+Active plan revised 16 November 2026 after recovery of the deleted workspace.
+Personal goal: finish and package this countdown project as a shareable portfolio piece by 20 November 2026, 20:00 Asia/Kolkata. Exact instant: 2026-11-20T20:00:00+05:30.
+
+SUCCESS
+One accurate native-size countdown wallpaper, matching cover, short explanation, original-art provenance, working refresh method and a reviewer-accessible project link. Inspect the wallpaper on the actual locked Mac before recording Verify complete. No unrelated AI/ML repository is required.
+
+CAPACITY
+60 minutes daily is the owner's working allowance, with no unavailable days supplied. Short tasks leave headroom; completed work is not rescheduled as busywork. Main work should be accepted by 18 November. Reserve 19–20 November for corrections/recovery; finish a last review by 18:00 on 20 November, two hours before the personal cutoff.
+
+MILESTONES
+Plan | target 16 Nov | 20 minutes review | no prerequisite | one bounded goal, five stages, capacity and recovery rule | COMPLETE; user brief, this plan and config.
+Design | target 16 Nov | 20 minutes review | Plan | original Gemini workshop, readable exact typography, consistent cover | COMPLETE; artwork hashes and inspected outputs.
+Build | target 16 Nov | 30 minutes validation | Design | executable renderer and source configuration, fonts included, correct output sizes | COMPLETE; recovered code and fresh14 passing tests.
+Verify | target 17 Nov | 10 minutes | Build | actual Mac lock-screen observation: crop, clock/control overlap, normal-size legibility | OPEN. Local date/image checks passed; installed fit has not been observed.
+Package | target 18 Nov | 20 minutes | Verify | final accepted assets plus a readable public link tested signed out, field-ready copy | OPEN until final device acceptance; local/public delivery evidence is recorded separately.
+Effort estimates describe remaining human review/acceptance, not measured historical effort or a requirement to repeat completed agent work.
+
+DAILY ACTIONS
+16 Nov — 10 min: Check the wallpaper on my Mac. Busy day5 min: Note one overlap or readability issue.
+17 Nov — 20 min after the Mac check: Review the public project link and proposed submission. Busy day5 min: Open the shared wallpaper signed out. Automated/public URL checks can be completed independently; do not infer installed fit from them.
+18 Nov — Up to30 min only if needed: correct any observed crop/text problem, refresh and inspect final files. Busy day5 min: fix one concrete issue. Accept the release early when these checks are done.
+19 Nov — Up to30 min reserved recovery, not compulsory work. Busy day5 min: inspect the first unresolved issue.
+20 Nov — By18:00: 10 min final check if still required. Busy day5 min: confirm file date, link access and next action. Hard personal cutoff20:00.
+
+RECOVERY RULE
+After a missed day, carry the earliest unfinished prerequisite forward within60 minutes; do not double tomorrow's workload. Use the5-minute fallback to record a concrete issue or next step. A fallback is not proof of the full milestone. If time runs short, retain one polished wallpaper, cover and one-page explanation; omit optional demo material. Do not reduce factual checking, fabricate completion or change the deadline silently.
+
+GEMINI AND CHATGPT
+Gemini genuinely developed the earlier portfolio-brief backward plan and the workshop illustration. Exact sent prompts, original initial response and available revision excerpts were recovered under prompts/history and evidence/history. The owner changed the goal to this countdown project; ChatGPT adapted the active schedule and precise exports. This current plan is not a newly returned Gemini response. The omitted middle of the deleted revised Gemini response has not been invented.
+
+CONTEST DEADLINE (separate)
+Official rules:23 Nov 2026 at23:59 Pacific =24 Nov 2026 at13:29 Asia/Kolkata. Personal goal remains20 Nov at20:00 IST.

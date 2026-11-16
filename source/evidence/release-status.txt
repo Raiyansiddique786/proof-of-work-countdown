@@ -1,0 +1,13 @@
+RELEASE STATUS — 16 November 2026
+Active project: PROOF OF WORK — My Countdown Project Launch
+Goal: Finish and package this countdown project by 2026-11-20T20:00:00+05:30 (Asia/Kolkata).
+
+Plan — complete. The owner confirmed the goal, cutoff, 60-minute allowance, no excluded dates supplied, five stages and review buffer. See docs/plan.txt for the active schedule; historical Gemini planning evidence is kept separately.
+Design — complete. Genuine Gemini workshop recovered with matching SHA-256; exact Mac composition and typography restored from recorded source. The source image is assets/mac-workshop.png. Final reduced-view inspection is recorded separately when performed.
+Build — complete. Renderer implementation and tests were recovered from genuine saved patch records. Fresh test run: 14 passed, 16 November 2026. The source was restored from this project’s original saved patch records. Current full-size and reduced export were visually inspected on 16 November; no clipping or spelling problem found.
+Verify — incomplete. Software checks can pass without proving installed Mac lock-screen fit. Actual system clock, account controls, crop, notifications and viewing-size check remain pending user observation.
+Package — incomplete. Local final assets are prepared; viewer access is recorded separately after publication. This milestone also requires the final accepted device check. Public URL checks are tracked separately.
+Completion recorded: false. Do not mark completed just because deadline elapsed or local exports exist.
+Reminders: unconfigured. Wallpaper installation: not performed by this session. Extra spending: INR 0.
+
+Owner response on16 November2026: unable to check the lock screen yet. Installed fit remains pending; no assumed confirmation.

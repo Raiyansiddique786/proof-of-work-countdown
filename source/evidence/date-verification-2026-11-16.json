@@ -1,0 +1,395 @@
+{
+  "executed_date": "2026-11-16",
+  "scope": "Actual project configuration; date arithmetic, deadline boundary, no inferred completion, and executed labeled boundary previews. This does not verify installed device fit.",
+  "config_sha256": "4fb58fc5e130e5db92ca7a20ec41f8a7e59e3f926146817df0fba9a5e8589e85",
+  "deadline": "2026-11-20T20:00:00+05:30",
+  "timezone": "Asia/Kolkata",
+  "calendar_day_convention": "Difference between local calendar dates in Asia/Kolkata; exact cutoff overrides zero days.",
+  "checks": [
+    {
+      "case": "four_days",
+      "input": "2026-11-16T12:00:00+05:30",
+      "expected_headline": "4",
+      "expected_calendar_days": 4,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-16T12:00:00+05:30",
+        "headline": "4",
+        "calendar_days": 4,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Check the wallpaper on my Mac",
+        "carried_forward": false,
+        "selected_task_date": "2026-11-16"
+      }
+    },
+    {
+      "case": "day_before",
+      "input": "2026-11-19T12:00:00+05:30",
+      "expected_headline": "1",
+      "expected_calendar_days": 1,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-19T12:00:00+05:30",
+        "headline": "1",
+        "calendar_days": 1,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Check the wallpaper on my Mac",
+        "carried_forward": true,
+        "selected_task_date": "2026-11-16"
+      }
+    },
+    {
+      "case": "due_date_start",
+      "input": "2026-11-20T00:00:00+05:30",
+      "expected_headline": "Due today",
+      "expected_calendar_days": 0,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-20T00:00:00+05:30",
+        "headline": "Due today",
+        "calendar_days": 0,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Check the wallpaper on my Mac",
+        "carried_forward": true,
+        "selected_task_date": "2026-11-16"
+      }
+    },
+    {
+      "case": "immediately_before",
+      "input": "2026-11-20T19:59:59+05:30",
+      "expected_headline": "Due today",
+      "expected_calendar_days": 0,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-20T19:59:59+05:30",
+        "headline": "Due today",
+        "calendar_days": 0,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Check the wallpaper on my Mac",
+        "carried_forward": true,
+        "selected_task_date": "2026-11-16"
+      }
+    },
+    {
+      "case": "exact_cutoff",
+      "input": "2026-11-20T20:00:00+05:30",
+      "expected_headline": "Deadline passed",
+      "expected_calendar_days": 0,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-20T20:00:00+05:30",
+        "headline": "Deadline passed",
+        "calendar_days": 0,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Review the launch status and choose a new deadline",
+        "carried_forward": false,
+        "selected_task_date": null
+      }
+    },
+    {
+      "case": "after_cutoff",
+      "input": "2026-11-20T20:00:01+05:30",
+      "expected_headline": "Deadline passed",
+      "expected_calendar_days": 0,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-20T20:00:01+05:30",
+        "headline": "Deadline passed",
+        "calendar_days": 0,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Review the launch status and choose a new deadline",
+        "carried_forward": false,
+        "selected_task_date": null
+      }
+    },
+    {
+      "case": "utc_before",
+      "input": "2026-11-20T14:29:59Z",
+      "expected_headline": "Due today",
+      "expected_calendar_days": 0,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-20T19:59:59+05:30",
+        "headline": "Due today",
+        "calendar_days": 0,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Check the wallpaper on my Mac",
+        "carried_forward": true,
+        "selected_task_date": "2026-11-16"
+      }
+    },
+    {
+      "case": "utc_cutoff",
+      "input": "2026-11-20T14:30:00Z",
+      "expected_headline": "Deadline passed",
+      "expected_calendar_days": 0,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-20T20:00:00+05:30",
+        "headline": "Deadline passed",
+        "calendar_days": 0,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Review the launch status and choose a new deadline",
+        "carried_forward": false,
+        "selected_task_date": null
+      }
+    },
+    {
+      "case": "before_kolkata_midnight",
+      "input": "2026-11-16T18:29:59Z",
+      "expected_headline": "4",
+      "expected_calendar_days": 4,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-16T23:59:59+05:30",
+        "headline": "4",
+        "calendar_days": 4,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Check the wallpaper on my Mac",
+        "carried_forward": false,
+        "selected_task_date": "2026-11-16"
+      }
+    },
+    {
+      "case": "at_kolkata_midnight",
+      "input": "2026-11-16T18:30:00Z",
+      "expected_headline": "3",
+      "expected_calendar_days": 3,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-17T00:00:00+05:30",
+        "headline": "3",
+        "calendar_days": 3,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Check the wallpaper on my Mac",
+        "carried_forward": true,
+        "selected_task_date": "2026-11-16"
+      }
+    },
+    {
+      "case": "missed_task_next_day",
+      "input": "2026-11-17T12:00:00+05:30",
+      "expected_headline": "3",
+      "expected_calendar_days": 3,
+      "result": "PASS",
+      "errors": [],
+      "actual": {
+        "as_of": "2026-11-17T12:00:00+05:30",
+        "headline": "3",
+        "calendar_days": 3,
+        "completed_milestones": 3,
+        "completion_recorded": false,
+        "action": "Check the wallpaper on my Mac",
+        "carried_forward": true,
+        "selected_task_date": "2026-11-16"
+      }
+    }
+  ],
+  "equivalences": {
+    "before_cutoff_utc_equal_ist": true,
+    "exact_cutoff_utc_equal_ist": true,
+    "midnight_utc_equal_ist": true,
+    "input_ledger_unchanged": true
+  },
+  "previews": [
+    {
+      "case": "day-before",
+      "command": [
+        "PROJECT_ROOT/.venv/bin/python",
+        "renderer/render.py",
+        "config/project.json",
+        "--as-of",
+        "2026-11-19T12:00:00+05:30",
+        "--preview",
+        "--output",
+        "PROJECT_ROOT/exports/verification/day-before"
+      ],
+      "exit_code": 0,
+      "stdout": "Exported PROJECT_ROOT/exports/verification/day-before/preview-2026-11-19.png (2560\u00d71664); 1; 3/5 recorded",
+      "stderr": "",
+      "manifest": "exports/verification/day-before/preview-2026-11-19.json",
+      "kind": "illustrative preview",
+      "completed_milestones": 3,
+      "headline": "1",
+      "images": {
+        "preview-2026-11-19-cover.png": {
+          "dimensions": [
+            1500,
+            1000
+          ],
+          "mode": "RGB",
+          "sha256": "240694361246dee055a8d5f417f63df6a781f421a69293f7b315c7e7475a4ff5"
+        },
+        "preview-2026-11-19-mockup.png": {
+          "dimensions": [
+            1500,
+            1100
+          ],
+          "mode": "RGB",
+          "sha256": "527dcb585f6a1301830e90aed7bcf075f790ee189b7cba40d78d92d2a8011068"
+        },
+        "preview-2026-11-19-small.png": {
+          "dimensions": [
+            1280,
+            832
+          ],
+          "mode": "RGB",
+          "sha256": "ddbf45ff9c3a31108e04bfbda56af06d9e2a3f043bbf5c2c89cf63c4db8da083"
+        },
+        "preview-2026-11-19.png": {
+          "dimensions": [
+            2560,
+            1664
+          ],
+          "mode": "RGB",
+          "sha256": "554275b8f2235e286fdd2b41b027c619e239f216fe2dc9ae04db042c30d4859d"
+        }
+      }
+    },
+    {
+      "case": "due-today",
+      "command": [
+        "PROJECT_ROOT/.venv/bin/python",
+        "renderer/render.py",
+        "config/project.json",
+        "--as-of",
+        "2026-11-20T19:59:59+05:30",
+        "--preview",
+        "--output",
+        "PROJECT_ROOT/exports/verification/due-today"
+      ],
+      "exit_code": 0,
+      "stdout": "Exported PROJECT_ROOT/exports/verification/due-today/preview-2026-11-20.png (2560\u00d71664); Due today; 3/5 recorded",
+      "stderr": "",
+      "manifest": "exports/verification/due-today/preview-2026-11-20.json",
+      "kind": "illustrative preview",
+      "completed_milestones": 3,
+      "headline": "Due today",
+      "images": {
+        "preview-2026-11-20-cover.png": {
+          "dimensions": [
+            1500,
+            1000
+          ],
+          "mode": "RGB",
+          "sha256": "240694361246dee055a8d5f417f63df6a781f421a69293f7b315c7e7475a4ff5"
+        },
+        "preview-2026-11-20-mockup.png": {
+          "dimensions": [
+            1500,
+            1100
+          ],
+          "mode": "RGB",
+          "sha256": "c3c118582901e965163c9f60a78dbe6eb68a7b8954e6dbf1ed28a6725bec02f4"
+        },
+        "preview-2026-11-20-small.png": {
+          "dimensions": [
+            1280,
+            832
+          ],
+          "mode": "RGB",
+          "sha256": "eb1d83a22de1cadfdb1d2c2aa98706f0fc1ca5898f0d1b22c44697b6315c9f11"
+        },
+        "preview-2026-11-20.png": {
+          "dimensions": [
+            2560,
+            1664
+          ],
+          "mode": "RGB",
+          "sha256": "b87bacfe86a814c24f48d46d77325a1ecf900608b6de3f0f60452cdc770539d2"
+        }
+      }
+    },
+    {
+      "case": "cutoff",
+      "command": [
+        "PROJECT_ROOT/.venv/bin/python",
+        "renderer/render.py",
+        "config/project.json",
+        "--as-of",
+        "2026-11-20T20:00:00+05:30",
+        "--preview",
+        "--output",
+        "PROJECT_ROOT/exports/verification/cutoff"
+      ],
+      "exit_code": 0,
+      "stdout": "Exported PROJECT_ROOT/exports/verification/cutoff/preview-2026-11-20.png (2560\u00d71664); Deadline passed; 3/5 recorded",
+      "stderr": "",
+      "manifest": "exports/verification/cutoff/preview-2026-11-20.json",
+      "kind": "illustrative preview",
+      "completed_milestones": 3,
+      "headline": "Deadline passed",
+      "images": {
+        "preview-2026-11-20-cover.png": {
+          "dimensions": [
+            1500,
+            1000
+          ],
+          "mode": "RGB",
+          "sha256": "240694361246dee055a8d5f417f63df6a781f421a69293f7b315c7e7475a4ff5"
+        },
+        "preview-2026-11-20-mockup.png": {
+          "dimensions": [
+            1500,
+            1100
+          ],
+          "mode": "RGB",
+          "sha256": "c10be70abacff9e3433ca2f45e37ee99c77751997fc036d19dfd472986b2c22d"
+        },
+        "preview-2026-11-20-small.png": {
+          "dimensions": [
+            1280,
+            832
+          ],
+          "mode": "RGB",
+          "sha256": "89718fd9d5cd9bd041901bb12864fa0150327c7db3ff22fd42dc8add037687d2"
+        },
+        "preview-2026-11-20.png": {
+          "dimensions": [
+            2560,
+            1664
+          ],
+          "mode": "RGB",
+          "sha256": "25a30c078e53664f6df4d679b77e6bd0464ea5982d837c4f9bb9e1049d03fea7"
+        }
+      }
+    }
+  ],
+  "config_unchanged": true,
+  "result": "PASS",
+  "failures": [],
+  "visual_inspection": {
+    "performed": true,
+    "previews_viewed": [
+      "exports/verification/day-before/preview-2026-11-19-small.png",
+      "exports/verification/due-today/preview-2026-11-20-small.png",
+      "exports/verification/cutoff/preview-2026-11-20-small.png"
+    ],
+    "viewed_dimensions": [
+      1280,
+      832
+    ],
+    "result": "PASS",
+    "findings": "All three visibly label DATED PREVIEW \u00b7 CURRENT RECORDS, retain 3/5 stages, show correct boundary headline and target date, and keep countdown and next action legible without clipping. Actual device fit remains unverified."
+  }
+}

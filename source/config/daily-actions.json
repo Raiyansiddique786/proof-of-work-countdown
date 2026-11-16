@@ -1,0 +1,36 @@
+[
+  {
+    "date": "2026-11-16",
+    "milestone": "Verify",
+    "action": "Check the wallpaper on my Mac",
+    "minutes": 10,
+    "fallback": "Note one overlap or readability issue",
+    "fallback_minutes": 5,
+    "id": "mac-fit",
+    "completed": false,
+    "evidence": null,
+    "depends_on": [],
+    "requires_milestones": [
+      "Plan",
+      "Design",
+      "Build"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "milestone": "Package",
+    "action": "Test the viewer link signed out",
+    "minutes": 20,
+    "fallback": "Open the shared wallpaper signed out",
+    "fallback_minutes": 5,
+    "id": "reviewer-link",
+    "completed": false,
+    "evidence": null,
+    "depends_on": [
+      "mac-fit"
+    ],
+    "requires_milestones": [
+      "Verify"
+    ]
+  }
+]

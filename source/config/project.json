@@ -1,0 +1,111 @@
+{
+  "goal": "Launch the countdown lock screen project with verified Mac fit and a viewer-accessible handoff",
+  "title": "PROOF OF WORK",
+  "subtitle": "My Countdown Project Launch",
+  "deadline": "2026-11-20T20:00:00+05:30",
+  "timezone": "Asia/Kolkata",
+  "sample": false,
+  "artwork": "../assets/mac-workshop.png",
+  "artwork_provenance": {
+    "provider": "Google Gemini",
+    "evidence": "../evidence/mac-art-provenance.txt"
+  },
+  "width": 2560,
+  "height": 1664,
+  "device_validated": false,
+  "daily_capacity_minutes": 60,
+  "unavailable_dates": [],
+  "device": {
+    "name": "Built-in Liquid Retina display",
+    "pixel_dimensions_verified": true,
+    "pixel_dimensions_evidence": "../evidence/mac-display.txt",
+    "lock_screen_fit_verified": false
+  },
+  "milestones": [
+    {
+      "name": "Plan",
+      "completed": true,
+      "evidence": "../evidence/release-status.txt"
+    },
+    {
+      "name": "Design",
+      "completed": true,
+      "evidence": "../evidence/release-status.txt"
+    },
+    {
+      "name": "Build",
+      "completed": true,
+      "evidence": "../evidence/release-status.txt"
+    },
+    {
+      "name": "Verify",
+      "completed": false,
+      "evidence": null
+    },
+    {
+      "name": "Package",
+      "completed": false,
+      "evidence": null
+    }
+  ],
+  "tasks": [
+    {
+      "date": "2026-11-16",
+      "milestone": "Verify",
+      "action": "Check the wallpaper on my Mac",
+      "minutes": 10,
+      "fallback": "Note one overlap or readability issue",
+      "fallback_minutes": 5,
+      "id": "mac-fit",
+      "completed": false,
+      "evidence": null,
+      "depends_on": [],
+      "requires_milestones": [
+        "Plan",
+        "Design",
+        "Build"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "milestone": "Package",
+      "action": "Test the viewer link signed out",
+      "minutes": 20,
+      "fallback": "Open the shared wallpaper signed out",
+      "fallback_minutes": 5,
+      "id": "reviewer-link",
+      "completed": false,
+      "evidence": null,
+      "depends_on": [
+        "mac-fit"
+      ],
+      "requires_milestones": [
+        "Verify"
+      ]
+    }
+  ],
+  "default_action": "Check the wallpaper on my Mac",
+  "default_fallback": "Note one overlap or readability issue",
+  "completion": {
+    "recorded": false,
+    "evidence": null
+  },
+  "layout": "landscape",
+  "capacity_assumption": "60 minutes per day; no unavailable days supplied. Scheduled work is shorter to retain recovery time.",
+  "display_name": "PROOF OF WORK \u2014 My Countdown Project Launch",
+  "milestone_order": [
+    "Plan",
+    "Design",
+    "Build",
+    "Verify",
+    "Package"
+  ],
+  "completion_headline": "Launched",
+  "completion_action": "Review the delivered countdown package",
+  "completion_fallback": "Save one lesson learned",
+  "deadline_passed_action": "Review the launch status and choose a new deadline",
+  "deadline_passed_fallback": "Record the next unfinished stage",
+  "cover_message": "One useful lock screen. One clear next action.",
+  "cover_credit": "GEMINI ARTWORK \u00b7 CHATGPT COORDINATION, REVIEW + EXPORT",
+  "recovery_note": "Replanned remaining work on 16 November after deleted workspace recovery; original task records preserved in recovery provenance. No missed day recorded as completed."
+}
