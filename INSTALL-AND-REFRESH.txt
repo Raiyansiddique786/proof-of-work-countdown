@@ -1,35 +1,19 @@
-VIEW, REFRESH AND INSTALL
+VIEW AND INSTALL THE SHARED EDITION
+The shared review image is final-lock-screen.png at the repository root. Open its GitHub file page and use Download raw file, or download the repository ZIP and extract it.
+On the Mac, open System Settings > Wallpaper > Add Photo and select the PNG. Then choose Apple menu > Lock Screen (Control-Command-Q). Inspect real clock/control overlap, cropping and normal-size text. The native2560x1664 resolution is confirmed; actual installed fit remains pending. The device-mockup.png image is illustrative.
 
-VIEW
-Open final-entry/final-lock-screen.png in Preview. The cover is final-entry/cover.png. exports/current contains a reduced-size preview and a clearly labeled generic laptop mockup. A mockup is not an installed-device screenshot.
-
-REFRESH
-The PNG is static. It does not update in the background.
-Double-click Refresh.command from the project folder, or run:
-.venv/bin/python scripts/refresh.py
-This uses the current instant and Asia/Kolkata calendar dates, creates dated exports and updates the proposed final PNG/cover. It does not change your wallpaper, completion ledger, reminders or public repository. If exporting a new submission edition, regenerate the PDF summary as described in scripts/README.txt and publish the files deliberately after review.
-
-FIRST SETUP ON ANOTHER COMPUTER
+REFRESH LOCALLY
+From the extracted source directory:
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python scripts/refresh.py
-The only core third-party dependency is Pillow11.3.0. Bundled Lexend font and OFL license are included. Python3.10+ with IANA timezone data is required; current local environment was tested. PDF authoring also uses reportlab; it is not required for ordinary wallpaper refresh.
+After first setup, source/Refresh.command is a convenient Mac launcher.
+New full images and previews appear in source/exports/current. The proposed refreshed wallpaper and cover appear in source/final-entry. Select the new image manually in Wallpaper settings.
+This command does not publish changes to GitHub, alter device settings, configure reminders or record completion. The PDF at the repository root is a dated release snapshot; do not describe it as a live document.
 
-DATE CONVENTION
-Days remaining is the difference between local calendar dates in Asia/Kolkata, not rounded24-hour blocks. On20 November before20:00 IST: Due today. At20:00 IST and later: Deadline passed unless completion has actually been recorded with evidence. Export date/time is printed unobtrusively. Future previews are labeled and preserve the actual completion ledger.
+ACCURACY
+The countdown uses Asia/Kolkata calendar dates and an unambiguous deadline instant. On the target date before20:00IST it says Due today; at/after20:00IST it says Deadline passed unless actual completion is recorded. Update configuration only with real work evidence. Time passing never fills a milestone.
+The bundled Lexend font is supplied with its SIL Open Font License. Core export needs Python3.10+ and Pillow11.3.0. Reminders are optional and unconfigured.
 
-RECORDING WORK
-Edit config/project.json only after real evidence: milestone completed=true plus an evidence path. Record a task separately with its own evidence. Set device_validated=true only after a real lock-screen observation. Completion.recorded is independent of the countdown. Do not mark stages complete to make the image look finished. Keep config/daily-actions.json synchronized with the tasks array.
-
-MAC CHECK (about10 minutes)
-1. System Settings > Wallpaper > Add Photo, then choose final-entry/final-lock-screen.png. UI wording may vary by macOS version. Keep the complete image visible; use Fit if available.
-2. Choose Apple menu > Lock Screen (or Control-Command-Q). Check the actual clock, controls and crop. Read the action/fallback at your usual distance. The display resolution was freshly observed as2560x1664; resolution alone does not prove fit.
-3. Unlock and record the observation/date or one concrete issue. A photo is optional evidence; crop personal account/notification details before sharing. No screenshot is included unless genuinely captured.
-This workflow changes the normal wallpaper; it does not modify FileVault, loginwindow caches or system security.
-
-Official Apple instructions checked16Nov 2026:
-https://support.apple.com/en-gb/guide/mac-help/mchlp3013/26/mac/26
+Apple instructions:
 https://support.apple.com/en-euro/guide/mac-help/mchlp1103/27/mac/27
-
-REMINDERS
-Optional and unconfigured. See prompts/optional-reminders.txt. No wallpaper switching, calendar import or reminder schedule is active.
