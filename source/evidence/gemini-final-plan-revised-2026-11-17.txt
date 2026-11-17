@@ -1,0 +1,48 @@
+PROOF OF WORK — Countdown Project Launch: Final Corrected Plan
+1. Success Definition & Deadlines
+
+Success Definition: A verified, packaged countdown wallpaper release featuring the retained Gemini workshop artwork, exact typography, 14 passing focused tests, matching cover and summary, and unauthenticated public download links—validated by actual Mac lock-screen observation and accepted by November 18, 2026, at ₹0 additional spending.
+
+Primary Output: Static 2560×1664 PNG wallpaper with manual refresh (no live lock-screen integration; reminders optional and off).
+
+Deadlines & Timing:
+
+Personal Launch Deadline: Friday, 20 November 2026 at 20:00 IST (2026-11-20T20:00:00+05:30); main core work finished by Nov 18; Nov 19–20 reserved strictly for conditional review/recovery finishing by 18:00 IST.
+
+Contest Submission Deadline: Monday, 23 November 2026 at 23:59 America/Los_Angeles = Tuesday, 24 November 2026 at 13:29 IST.
+
+2. Five-Stage Framework (Plan → Design → Build → Verify → Package)
+Stage	Target Window	Remaining Effort	Status / Dependency	Deliverable & Observable Acceptance Criterion
+Plan	Completed prior	0 min	Completed (None)	Scope, countdown target, and static manual-refresh architecture locked.
+Design	Completed prior	0 min	Completed (Plan)	Retained Gemini workshop artwork, typography, and matching cover/summary layout finalized.
+Build	Completed prior	0 min	Completed (Design)	Working local renderer, 14 passing tests, 2560×1664 PNG, and separate public website/download links tested without auth.
+Verify	Nov 17	10 min	Open (Build complete)	Actual Mac lock-screen installation observed; clean clock/widget framing and legibility confirmed without overlap.
+Package	By Nov 18	20 min core (+ up to 30 min conditional fix)	Open (Verify complete)	Release bundle consistency-checked (matching cover, summary, PNG, and existing verified links); accepted once Verify passes.
+
+Note: Logging a blocker or executing a 5-minute fallback does not complete Verify or Package. Already-passed public link checks are recorded as valid and are not repeated unless an asset changes.
+
+3. Capacity & Feasibility Arithmetic (Nov 17 – Nov 20)
+
+Assumed Window Capacity: 4 days × 60 minutes/day (zero unavailable days assumed) = 240 total minutes.
+
+Core Planned Work (Nov 17 – Nov 18): 30 minutes (10 min Verify on Nov 17 + 20 min Package acceptance review on Nov 18).
+
+Conditional Correction Allowance (Nov 18): Up to 30 minutes if the Mac check reveals a layout/overlap issue (stays within Nov 18's 60-minute daily capacity).
+
+Conditional Reserve Checks (Nov 19 – Nov 20): Up to 30 minutes across the 120-minute reserve window (up to 20 min on Nov 19 + up to 10 min on Nov 20, finishing by 18:00 IST); 0 compulsory minutes if accepted early.
+
+Worst-Case Total & Headroom: At most 90 scheduled minutes (30 core + 30 conditional fix + 30 conditional reserve), leaving at least 150 minutes of unallocated headroom across the 4-day window (including 90 minutes of unused capacity on Nov 19–20). Fallbacks replace normal actions within a session rather than adding extra minutes.
+
+4. Daily Action Schedule (Nov 17 – Nov 20)
+Date	Milestone	Action	Effort	Fallback Alternative (within session)	Fallback Effort
+2026-11-17	Verify	Check the wallpaper on my Mac	10 min	Note one overlap or readability issue	5 min
+2026-11-18	Package	Run final consistency review and accept release (+ up to 30 min conditional fix if Mac check flagged an issue)	20 min (up to 50 min)	Record exact discrepancy or blocker note	5 min
+2026-11-19	Package (Conditional)	Conditional reserve review/fix only if Nov 18 acceptance is still open	Up to 20 min (0 if accepted)	Check single updated asset locally	5 min
+2026-11-20	Package (Conditional)	Final conditional sanity check finishing by 18:00 IST before 20:00 IST cutoff	Up to 10 min (0 if accepted)	Verify final PNG and summary files exist locally	5 min
+5. Recovery, Early Acceptance & Current Status
+
+Missed-Day Recovery Rule: If a day is missed, carry the earliest unfinished prerequisite forward into the next day's 60-minute allowance without doubling workload or advancing milestone status prematurely.
+
+Early Acceptance Rule: If Verify passes on Nov 17 and Package consistency review passes on Nov 18, accept the release immediately on Nov 18—do not invent extra tasks for Nov 19–20.
+
+Explicit Current Status: Plan, Design, and Build are verified complete; Verify and Package remain open. No Mac screenshot, completed device check, external reminder, or contest submission has been performed or claimed.

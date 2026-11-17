@@ -1,0 +1,3 @@
+PUBLIC LINK CHECK —17November2026
+Extract from the independent local verification audit. Twelve anonymous HTTPS requests to the published project page and principal assets returned200. Eleven non-HTML responses matched the corresponding local files byteforbyte. No cookies or authorization headers were used. Public access passed independently of the separate Mac installationcheck. This evidence closes the reviewer-link task only.
+Project: https://proof-of-work-countdown.siddiqueraiyan2001.chatgpt.site

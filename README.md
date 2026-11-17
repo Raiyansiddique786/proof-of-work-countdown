@@ -41,13 +41,13 @@ The native display resolution was observed on the actual Mac. Installed lock-scr
 
 ### The plan
 
-The working allowance is 60 minutes a day, with no excluded days supplied. The remaining device and handoff checks are short tasks on 16–18 November. Keep 19–20 November for corrections and recovery; finish a final review by 6 p.m. on the deadline day. After a missed day, resume the earliest unfinished prerequisite without doubling the next day’s load. See the [active plan](source/PLAN.txt).
+The working allowance is 60 minutes a day, with no excluded days supplied. The remaining device and handoff checks are short tasks on 17–18 November. Keep 19–20 November for corrections and recovery; finish a final review by 6 p.m. on the deadline day. After a missed day, resume the earliest unfinished prerequisite without doubling the next day’s load. See the [active plan](source/PLAN.txt).
 
 ### Who made what
 
-Google Gemini developed the **earlier portfolio-brief backward plan** and generated the original miniature workshop artwork. The owner changed the goal to launching this countdown project. ChatGPT coordinated the adaptation, restored the local renderer, and typeset the current wallpaper and cover. These final images are disclosed local derivatives of genuine Gemini artwork, not unmodified Gemini downloads.
+Google Gemini generated the original miniature workshop artwork and developed the backward plan. After the owner changed the goal to launching this countdown project, Gemini returned a new current-brief plan on 17 November. A specific follow-up corrected its core-work dates, daily capacity and recovery buffer. ChatGPT reviewed both responses, restored the local renderer, and typeset the current wallpaper and cover. These final images are disclosed local derivatives of genuine Gemini artwork, not unmodified Gemini downloads.
 
-The original artwork was recovered byte-for-byte from its original download. Genuine sent prompts and available planning responses are retained in the private working package; a missing section of a deleted revision has not been fabricated. No new Gemini conversation is claimed for this recovery edition.
+The original artwork was recovered byte-for-byte from its original download. Genuine sent prompts and available planning responses are retained in the private working package; a missing section of a deleted revision has not been fabricated. The actual initial and corrected current-brief responses are included in [the process record](source/evidence/gemini-final-plan-revised-2026-11-17.txt); historical records remain separate.
 
 ### Refresh it
 
@@ -78,6 +78,6 @@ Edit `source/config/project.json` to change the goal, deadline or recorded evide
 
 ### Submission context
 
-Prepared for Handshake’s [Your Deadline, Your Design](https://joinhandshake.com/learn/your-deadline-your-design-create-a-countdown-lock-screen-e748e649/) mission. Final submission remains manual. Reminders are optional and unconfigured. No extra spending was used.
+Prepared for Handshake’s [Your Deadline, Your Design](https://joinhandshake.com/learn/your-deadline-your-design-create-a-countdown-lock-screen-e748e649/) mission. Final submission remains manual. Reminders are optional and off. No extra spending was used.
 
 The contest closes 23 November 2026 at 11:59 p.m. Pacific, separately from the personal goal above. The [official rules](https://go.joinhandshake.com/rs/390-ZTF-353/images/Google_%20AI_Skills_Studio_Challenge_Contest_Official_Rules.pdf) do not explicitly settle local typography/rendering in their automation clause; this project discloses its method and does not assert organizer approval or a prize outcome.

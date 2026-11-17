@@ -24,10 +24,26 @@
     "fallback": "Open the shared wallpaper signed out",
     "fallback_minutes": 5,
     "id": "reviewer-link",
+    "completed": true,
+    "evidence": "../evidence/verification-audit-2026-11-17.txt",
+    "depends_on": [],
+    "requires_milestones": [
+      "Build"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "milestone": "Package",
+    "action": "Review the final submission files",
+    "minutes": 20,
+    "fallback": "Check the cover and description",
+    "fallback_minutes": 5,
+    "id": "package-acceptance",
     "completed": false,
     "evidence": null,
     "depends_on": [
-      "mac-fit"
+      "mac-fit",
+      "reviewer-link"
     ],
     "requires_milestones": [
       "Verify"

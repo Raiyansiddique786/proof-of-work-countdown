@@ -506,7 +506,7 @@ def landscape_mockup(wallpaper, c):
     base_y = y + thumb.height + 18
     d.polygon([(x-18, base_y), (x+thumb.width+18, base_y), (x+thumb.width+75, base_y+37), (x-75, base_y+37)], fill="#8A919A")
     d.rounded_rectangle((x-75, base_y+31, x+thumb.width+75, base_y+45), radius=8, fill="#737B85")
-    status = "Actual lock-screen fit verified" if c["device_validated"] else f"{c['width']}×{c['height']} export · actual lock-screen fit unverified"
+    status = f"{c['width']}×{c['height']} export · illustrative laptop preview"
     text_block(d, c, status, 80, 1040, 1340, 25, 1, NAVY, align="center")
     return canvas
 
@@ -533,7 +533,7 @@ def cover_image(wallpaper, c, state, preview=False):
     countdown = f"{state['calendar_days']} calendar days" if state["headline"].isdecimal() else state["headline"]
     text_block(d, c, f"{countdown} · {state['completed_milestones']}/5 milestones recorded", 85, 778, 780, 25, 1, "#58606A")
     if not c["device_validated"]:
-        text_block(d, c, "Provisional dimensions · actual device fit unverified", 85, 865, 790, 23, 1, "#8F642D", True)
+        text_block(d, c, "Provisional dimensions · check on your device", 85, 865, 790, 23, 1, "#8F642D", True)
     thumb = ImageOps.contain(wallpaper, (350, 780), Image.Resampling.LANCZOS)
     x, y = 1040 + (350 - thumb.width) // 2, 95
     d.rounded_rectangle((x-13, y-13, x+thumb.width+13, y+thumb.height+13), radius=45, fill="#222A34")

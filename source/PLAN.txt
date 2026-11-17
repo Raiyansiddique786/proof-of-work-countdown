@@ -1,33 +1,48 @@
 PROOF OF WORK — My Countdown Project Launch
-Active plan revised 16 November 2026 after recovery of the deleted workspace.
-Personal goal: finish and package this countdown project as a shareable portfolio piece by 20 November 2026, 20:00 Asia/Kolkata. Exact instant: 2026-11-20T20:00:00+05:30.
+Gemini-developed final plan, reviewed and adopted 17 November 2026.
 
-SUCCESS
-One accurate native-size countdown wallpaper, matching cover, short explanation, original-art provenance, working refresh method and a reviewer-accessible project link. Inspect the wallpaper on the actual locked Mac before recording Verify complete. No unrelated AI/ML repository is required.
+PERSONAL GOAL AND SUCCESS
+Finish and package this countdown project as a shareable portfolio piece by 20 November 2026, 20:00 Asia/Kolkata. Exact instant: 2026-11-20T20:00:00+05:30. Main core work is due by 18 November; 19–20 November are conditional review/recovery days, with a last check ending by 18:00 IST.
 
-CAPACITY
-60 minutes daily is the owner's working allowance, with no unavailable days supplied. Short tasks leave headroom; completed work is not rescheduled as busywork. Main work should be accepted by 18 November. Reserve 19–20 November for corrections/recovery; finish a last review by 18:00 on 20 November, two hours before the personal cutoff.
+Success is one accurate 2560 × 1664 static wallpaper, matching cover and one-page explanation, retained Gemini artwork/process evidence, a working manual refresh method, and a viewer-accessible project page with downloads. The actual locked Mac must be inspected before Verify and final Package acceptance are recorded. No unrelated AI/ML repository is required. Reminders remain optional and inactive.
 
-MILESTONES
-Plan | target 16 Nov | 20 minutes review | no prerequisite | one bounded goal, five stages, capacity and recovery rule | COMPLETE; user brief, this plan and config.
-Design | target 16 Nov | 20 minutes review | Plan | original Gemini workshop, readable exact typography, consistent cover | COMPLETE; artwork hashes and inspected outputs.
-Build | target 16 Nov | 30 minutes validation | Design | executable renderer and source configuration, fonts included, correct output sizes | COMPLETE; recovered code and fresh14 passing tests.
-Verify | target 17 Nov | 10 minutes | Build | actual Mac lock-screen observation: crop, clock/control overlap, normal-size legibility | OPEN. Local date/image checks passed; installed fit has not been observed.
-Package | target 18 Nov | 20 minutes | Verify | final accepted assets plus a readable public link tested signed out, field-ready copy | OPEN until final device acceptance; local/public delivery evidence is recorded separately.
-Effort estimates describe remaining human review/acceptance, not measured historical effort or a requirement to repeat completed agent work.
+CAPACITY AND FEASIBILITY
+The owner supplied 60 minutes/day. No unavailable days were supplied; that is a working assumption.
+17–20 November: 4 × 60 = 240 minutes available.
+Core remaining work: 10 minutes Verify + 20 minutes Package = 30 minutes.
+Conditional correction on 18 November: up to 30 minutes, only for an observed issue. Package plus correction uses at most 50 of that day's 60 minutes.
+Conditional reserve checks: up to 20 minutes on 19 November + 10 minutes on 20 November = 30 minutes across the 120-minute reserve window. There are no compulsory reserve tasks if accepted early.
+At most 90 minutes are scheduled if every conditional allowance is needed, leaving at least 150 minutes unallocated overall, including 90 unused reserve-day minutes. A 5-minute fallback replaces the normal action inside its session; it is not extra effort or milestone-completion evidence.
+
+MILESTONES AND EVIDENCE
+Plan | completed before 17 Nov | 0 remaining minutes | no prerequisite | bounded countdown goal, personal cutoff, five stages and capacity/recovery rules recorded.
+Design | completed before 17 Nov | 0 remaining minutes | Plan | retained genuine Gemini workshop, readable typography and matching visual assets.
+Build | completed before 17 Nov | 0 remaining minutes | Design | executable local renderer, focused passing tests, native-size PNG and public page/download checks.
+Verify | target 17 Nov | 10 remaining minutes | Build | OPEN: observe the actual installed Mac lock screen at normal viewing distance; confirm crop, clock/account-control clearance and legibility. Record the real result; a mockup or blocker note is not sufficient.
+Package | by 18 Nov, earlier when possible | 20 core minutes, plus up to 30 conditional correction minutes | Verify | OPEN for final device acceptance: consistent final PNG, cover, summary and copy, with the accepted files reachable through the tested viewer link. Independent public-link checks already passed and need repeating only when an asset or access setting changes.
+
+The authoritative completion ledger is config/project.json. The public page and download checks are recorded separately in evidence/website-publication-2026-11-17.json. They establish access, not installed-device fit. The authenticated Handshake form was inspected on 17 November; no entry was submitted. Field observations are in evidence/handshake-form-2026-11-17.txt.
 
 DAILY ACTIONS
-16 Nov — 10 min: Check the wallpaper on my Mac. Busy day5 min: Note one overlap or readability issue.
-17 Nov — 20 min after the Mac check: Review the public project link and proposed submission. Busy day5 min: Open the shared wallpaper signed out. Automated/public URL checks can be completed independently; do not infer installed fit from them.
-18 Nov — Up to30 min only if needed: correct any observed crop/text problem, refresh and inspect final files. Busy day5 min: fix one concrete issue. Accept the release early when these checks are done.
-19 Nov — Up to30 min reserved recovery, not compulsory work. Busy day5 min: inspect the first unresolved issue.
-20 Nov — By18:00: 10 min final check if still required. Busy day5 min: confirm file date, link access and next action. Hard personal cutoff20:00.
+17 Nov — Verify, 10 min: Check the wallpaper on my Mac. Busy day alternative, 5 min: Note one overlap or readability issue.
+18 Nov — Package, 20 min: Run the final consistency review and accept the release after Verify passes. If a specific issue was observed, allow up to 30 additional minutes for correction and recheck (at most 50 min total). Busy day alternative, 5 min: Record the exact discrepancy or blocker.
+19 Nov — Conditional reserve, up to 20 min: Review or fix only an unresolved issue; zero work if the release is accepted. Busy day alternative, 5 min: Check one changed asset locally.
+20 Nov — Conditional reserve, up to 10 min: Finish any final sanity check by 18:00 IST, before the 20:00 personal cutoff; zero work if accepted. Busy day alternative, 5 min: Confirm the final PNG and summary files are present.
 
-RECOVERY RULE
-After a missed day, carry the earliest unfinished prerequisite forward within60 minutes; do not double tomorrow's workload. Use the5-minute fallback to record a concrete issue or next step. A fallback is not proof of the full milestone. If time runs short, retain one polished wallpaper, cover and one-page explanation; omit optional demo material. Do not reduce factual checking, fabricate completion or change the deadline silently.
+RECOVERY AND EARLY ACCEPTANCE
+After a missed day, carry the earliest unfinished prerequisite into the next available 60-minute allowance. Do not double the load, silently skip evidence, or advance status because time passed. A fallback can record an issue or next step but does not pass the full criterion. If Verify and Package checks both pass early, accept the release immediately; the target dates are latest planned dates, not reasons to wait. Keep optional polish or demo work out of the critical path.
 
-GEMINI AND CHATGPT
-Gemini genuinely developed the earlier portfolio-brief backward plan and the workshop illustration. Exact sent prompts, original initial response and available revision excerpts were recovered under prompts/history and evidence/history. The owner changed the goal to this countdown project; ChatGPT adapted the active schedule and precise exports. This current plan is not a newly returned Gemini response. The omitted middle of the deleted revised Gemini response has not been invented.
+GENUINE GEMINI DEVELOPMENT AND REVIEW
+The original Gemini conversation created the workshop artwork and an earlier portfolio-oriented plan. On 17 November, the current countdown-project brief, exact deadline, real completion evidence, device-check gap, 60-minute allowance and buffer were supplied to Gemini in that same planning conversation.
+The first actual response scheduled core packaging on the reserve days and described normal task durations as capacity. ChatGPT issued a specific repair prompt. Gemini's completed repair moved core acceptance to 18 November, preserved 19–20 November as conditional reserve, corrected the effort arithmetic, and kept Verify/Package open.
+This active plain-text plan is an editorially formatted adoption of that actual corrected response. ChatGPT clarifies that any successful early acceptance is allowed; no wait until a target date is required. No response text, completed device check, reminder or submission has been invented.
 
-CONTEST DEADLINE (separate)
-Official rules:23 Nov 2026 at23:59 Pacific =24 Nov 2026 at13:29 Asia/Kolkata. Personal goal remains20 Nov at20:00 IST.
+Actual current records:
+  prompts/gemini-final-plan-2026-11-17.txt
+  prompts/gemini-final-plan-repair-2026-11-17.txt
+  evidence/gemini-final-plan-initial-2026-11-17.txt
+  evidence/gemini-final-plan-revised-2026-11-17.txt
+Historical recovered records remain under prompts/history and evidence/history. The previous active plan is preserved as evidence/history/active-plan-before-gemini-2026-11-17.txt.
+
+CONTEST DEADLINE — SEPARATE FROM THE PERSONAL GOAL
+Official contest cutoff: 23 November 2026 at 23:59 America/Los_Angeles = 24 November 2026 at 13:29 Asia/Kolkata. The personal goal remains 20 November at 20:00 IST. The owner's final Handshake submission is manual and is separate from producing the package.
