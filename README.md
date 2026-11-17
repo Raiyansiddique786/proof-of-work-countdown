@@ -1,6 +1,8 @@
 # PROOF OF WORK
 ## My Countdown Project Launch
 
+**[Open the project website](https://proof-of-work-countdown.siddiqueraiyan2001.chatgpt.site/)** — preview the wallpaper and download the files without signing in.
+
 A calm countdown wallpaper for my MacBook Air: one deadline, one useful next action and five milestones backed by recorded work.
 
 ![PROOF OF WORK cover](cover.png)
