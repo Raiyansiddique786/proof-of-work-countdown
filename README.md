@@ -6,7 +6,7 @@ A calm countdown wallpaper for my MacBook Air: one deadline, one useful next act
 ![PROOF OF WORK cover](cover.png)
 
 **Personal deadline:** 20 November 2026, 8:00 p.m. IST (`Asia/Kolkata`).  
-**Edition:** 16 November 2026 · **4 calendar days remaining** · **3/5 milestones recorded**.
+**Edition:** 17 November 2026 · **3 calendar days remaining** · **3/5 milestones recorded**.
 
 [Open the full-size wallpaper](final-lock-screen.png) · [Read the one-page project summary](project-summary.pdf) · [Download the cover](cover.png)
 
