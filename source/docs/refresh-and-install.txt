@@ -1,0 +1,35 @@
+VIEW, REFRESH AND INSTALL
+Finished release / current export edition 18 November 2026
+
+VIEW
+Open final-entry/final-lock-screen.png in Preview. The matching cover is final-entry/cover.png and the one-page explanation is final-entry/project-summary.pdf. exports/current includes a reduced preview and a clearly labeled illustrative laptop mockup. A mockup is not an installed-device screenshot.
+
+DEVICE CHECK — OWNER CONFIRMED
+On 17 November the owner applied the image, locked the Mac and reported: “Applied: readable, no cropping or overlap”. Evidence: evidence/mac-fit-confirmed-2026-11-17.txt. No locked-screen screenshot was captured. The later 5/5 status and manual-submission action retain the same layout, font sizes, 2560 × 1664 canvas and reserved clock/control areas; those changed text elements were inspected locally. This is not a claim of a second installed-device observation.
+To install a refreshed image, open System Settings > Wallpaper, add/select the new PNG, then use Apple menu > Lock Screen or Control-Command-Q. Check clock/account-control overlap, crop and normal-distance legibility. Unlock normally. If display scaling or geometry changes, repeat the fit check and record any issue.
+
+REFRESH
+The PNG is static; its countdown does not update in the background.
+Double-click Refresh.command, or run from this project folder:
+  .venv/bin/python scripts/refresh.py
+The exporter uses the current instant and Asia/Kolkata calendar dates, writes dated images/manifests, and updates final-entry/final-lock-screen.png and cover.png. It does not install the wallpaper, change completion evidence, activate reminders or publish files.
+For a new public edition, rebuild the summary with scripts/build_summary.py as described in scripts/README.txt. Inspect the full image, reduced preview and PDF. Replace only the reviewed public assets, then recheck their URLs. The website and source repository do not update themselves.
+
+DATE AND STATUS CONVENTION
+Days remaining is the difference between local calendar dates in Asia/Kolkata, not rounded 24-hour periods. The 18 November edition shows 2 days until the 20 November target. On the deadline date before 20:00 IST, the due-today state applies. At/after the exact cutoff, an unfinished goal shows Deadline passed; recorded completion governs the completed state. A zero countdown never proves success.
+Five completed project stages and a recorded release do not mean a contest entry was submitted. The current next action is manual Handshake submission; its fallback is to review the cover and description. Evidence, not time, controls completion.
+
+SETUP ON ANOTHER COMPUTER
+  python3 -m venv .venv
+  .venv/bin/python -m pip install -r requirements.txt
+  .venv/bin/python scripts/refresh.py
+The core image dependency is Pillow 11.3.0. Lexend and its OFL license are bundled. Use Python 3.10+ with IANA timezone data. PDF authoring also uses ReportLab; ordinary wallpaper export does not require it.
+
+RECORDING FUTURE CHANGES
+Update config/project.json only from real evidence. Each completed stage/task has its own evidence path; config/daily-actions.json mirrors the task ledger. A future preview changes its date label/count, not the actual work ledger. Keep original Gemini assets intact and label derived exports accurately.
+
+LIMITS AND REMINDERS
+This workflow changes the normal Mac wallpaper; it does not alter FileVault, loginwindow caches or security settings. The owner check concerned the ordinary signed-in session lock screen. Reminder scheduling and automatic wallpaper switching remain off.
+Apple instructions checked in this project:
+https://support.apple.com/en-gb/guide/mac-help/mchlp3013/26/mac/26
+https://support.apple.com/en-euro/guide/mac-help/mchlp1103/27/mac/27

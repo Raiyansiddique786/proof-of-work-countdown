@@ -1,0 +1,62 @@
+{
+  "kind": "static wallpaper export",
+  "device_validated": true,
+  "width": 2560,
+  "height": 1664,
+  "layout": "landscape",
+  "goal": "Launch the countdown lock screen project with verified Mac fit and a viewer-accessible handoff",
+  "project_title": "PROOF OF WORK \u2014 My Countdown Project Launch",
+  "state": {
+    "as_of": "2026-11-18T05:15:40+05:30",
+    "deadline": "2026-11-20T20:00:00+05:30",
+    "calendar_days": 2,
+    "headline": "2",
+    "caption": "DAYS TO DEADLINE",
+    "action": "Submit manually on Handshake",
+    "fallback": "Review the cover and description",
+    "minutes": 10,
+    "fallback_minutes": 5,
+    "completed_milestones": 5,
+    "milestones": [
+      {
+        "name": "Plan",
+        "completed": true,
+        "evidence": "../evidence/release-status.txt"
+      },
+      {
+        "name": "Design",
+        "completed": true,
+        "evidence": "../evidence/release-status.txt"
+      },
+      {
+        "name": "Build",
+        "completed": true,
+        "evidence": "../evidence/release-status.txt"
+      },
+      {
+        "name": "Verify",
+        "completed": true,
+        "evidence": "../evidence/mac-fit-confirmed-2026-11-17.txt"
+      },
+      {
+        "name": "Package",
+        "completed": true,
+        "evidence": "../evidence/package-acceptance-2026-11-17.txt"
+      }
+    ],
+    "completion_recorded": true,
+    "task_for_date": false,
+    "selected_task_date": null,
+    "carried_forward": false,
+    "blocked_by": null,
+    "progress_basis": "Current recorded ledger; as-of changes countdown and task eligibility, not historical completion"
+  },
+  "artwork": "../assets/mac-workshop.png",
+  "artwork_provenance": {
+    "provider": "Google Gemini",
+    "evidence": "../evidence/mac-art-provenance.txt"
+  },
+  "artwork_sha256": "b179e8ec26246a36241966ce4bf5f02e3a1b84d198269b27b2990fc719adc7c2",
+  "png_sha256": "1981ab26ddcb7fe73735002b0c04f83b8bc312f415c5b0bb54e8f5de35433b5d",
+  "note": "Static PNG; replace wallpaper manually after each fresh export. The renderer does not install wallpaper or configure reminders; device fit evidence is recorded separately."
+}

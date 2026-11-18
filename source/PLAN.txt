@@ -1,48 +1,33 @@
 PROOF OF WORK — My Countdown Project Launch
-Gemini-developed final plan, reviewed and adopted 17 November 2026.
+Finished project release. Gemini-developed plan adopted 17 November 2026; current export edition 18 November 2026.
 
-PERSONAL GOAL AND SUCCESS
-Finish and package this countdown project as a shareable portfolio piece by 20 November 2026, 20:00 Asia/Kolkata. Exact instant: 2026-11-20T20:00:00+05:30. Main core work is due by 18 November; 19–20 November are conditional review/recovery days, with a last check ending by 18:00 IST.
+OUTCOME AND DEADLINE
+The countdown project is complete: Plan, Design, Build, Verify and Package are recorded, 5/5. The owner confirmed the installed Mac layout on 17 November: “Applied: readable, no cropping or overlap”. That report is evidence of the real device check; it is not an agent observation or an installed-device screenshot. The subsequent status/action text update retains the checked dimensions, typography and reserved interface areas and is inspected locally.
+The deliverable is a 2560 × 1664 static wallpaper, matching cover, one-page explanation, genuine Gemini process records, editable configuration, tested renderer, manual refresh instructions and a public project page with downloads. No unrelated AI/ML repository is needed.
+Personal deadline: 20 November 2026 at 20:00 Asia/Kolkata (2026-11-20T20:00:00+05:30). The 18 November export shows 2 local calendar days remaining; elapsed time and completion are separate signals. Finishing early does not change the target date.
 
-Success is one accurate 2560 × 1664 static wallpaper, matching cover and one-page explanation, retained Gemini artwork/process evidence, a working manual refresh method, and a viewer-accessible project page with downloads. The actual locked Mac must be inspected before Verify and final Package acceptance are recorded. No unrelated AI/ML repository is required. Reminders remain optional and inactive.
+MILESTONES
+Plan — complete. Bounded project goal, exact cutoff, five stages, capacity and recovery rule.
+Design — complete. Original Gemini miniature workshop, exact local typography, consistent wallpaper and cover.
+Build — complete. Working local renderer and editable configuration, bundled licensed font, exported files and 16 focused renderer tests.
+Verify — complete from recorded checks and the owner's actual Mac report. Date/cutoff/timezone behavior and exported images were checked locally. No installed screenshot exists.
+Package — complete. Consistent reviewed files, viewer-accessible project page, tested public downloads, concise summary and field-ready submission copy. Manual contest submission is a later owner action, not a sixth project milestone.
+The authoritative ledger is config/project.json. Evidence includes mac-fit-confirmed-2026-11-17.txt, package-acceptance-2026-11-17.txt and publication/verification records under evidence/.
 
-CAPACITY AND FEASIBILITY
-The owner supplied 60 minutes/day. No unavailable days were supplied; that is a working assumption.
-17–20 November: 4 × 60 = 240 minutes available.
-Core remaining work: 10 minutes Verify + 20 minutes Package = 30 minutes.
-Conditional correction on 18 November: up to 30 minutes, only for an observed issue. Package plus correction uses at most 50 of that day's 60 minutes.
-Conditional reserve checks: up to 20 minutes on 19 November + 10 minutes on 20 November = 30 minutes across the 120-minute reserve window. There are no compulsory reserve tasks if accepted early.
-At most 90 minutes are scheduled if every conditional allowance is needed, leaving at least 150 minutes unallocated overall, including 90 unused reserve-day minutes. A 5-minute fallback replaces the normal action inside its session; it is not extra effort or milestone-completion evidence.
+ORIGINAL CAPACITY AND BUFFER
+Gemini's corrected plan used the owner's 60-minute daily allowance and no excluded days as a working assumption. For 17–20 November, 4 × 60 = 240 minutes were available. Planned core work was 10 minutes Verify plus 20 minutes Package acceptance. An observed issue could use up to 30 conditional correction minutes on 18 November. Reserve checks on 19–20 November were capped at 20 + 10 = 30 minutes, ending by 18:00 IST on 20 November.
+At most 90 minutes were planned if every conditional allowance was needed, leaving at least 150 minutes unallocated overall and 90 unused reserve-day minutes. These are planning estimates, not measured actual effort. A five-minute fallback replaces a session; it never proves the whole milestone.
+The release was accepted early on 17 November. Do not assign makework on 18–20 November. Use reserve time only for a newly observed issue; finish any final personal-goal review by 18:00 on 20 November.
 
-MILESTONES AND EVIDENCE
-Plan | completed before 17 Nov | 0 remaining minutes | no prerequisite | bounded countdown goal, personal cutoff, five stages and capacity/recovery rules recorded.
-Design | completed before 17 Nov | 0 remaining minutes | Plan | retained genuine Gemini workshop, readable typography and matching visual assets.
-Build | completed before 17 Nov | 0 remaining minutes | Design | executable local renderer, focused passing tests, native-size PNG and public page/download checks.
-Verify | target 17 Nov | 10 remaining minutes | Build | OPEN: observe the actual installed Mac lock screen at normal viewing distance; confirm crop, clock/account-control clearance and legibility. Record the real result; a mockup or blocker note is not sufficient.
-Package | by 18 Nov, earlier when possible | 20 core minutes, plus up to 30 conditional correction minutes | Verify | OPEN for final device acceptance: consistent final PNG, cover, summary and copy, with the accepted files reachable through the tested viewer link. Independent public-link checks already passed and need repeating only when an asset or access setting changes.
+NEXT ACTION
+Submit manually on Handshake — allow 10 minutes to review the final title, description, URL and cover before submitting.
+Busy-day fallback — review the cover and description for 5 minutes. This is not a submitted contest entry.
+If a new issue appears, return to the earliest affected prerequisite within the ordinary 60-minute allowance. Do not double the next day, silently change the cutoff or invent a passing result. Refresh and inspect any changed asset before replacing its public copy.
 
-The authoritative completion ledger is config/project.json. The public page and download checks are recorded separately in evidence/website-publication-2026-11-17.json. They establish access, not installed-device fit. The authenticated Handshake form was inspected on 17 November; no entry was submitted. Field observations are in evidence/handshake-form-2026-11-17.txt.
+GENUINE GEMINI DEVELOPMENT
+The original Gemini conversation created the workshop artwork and an earlier portfolio-oriented plan. On 17 November the actual countdown-project brief, deadline, completion evidence, device-check gap, capacity and reserve dates were supplied to Gemini in that same planning conversation.
+The first response scheduled packaging during the reserve and blurred task duration with capacity. ChatGPT sent a specific repair request. Gemini's completed revision moved core acceptance to 18 November, protected 19–20 November for conditional recovery and corrected the 30 + 30 + 30-minute arithmetic. The owner subsequently completed the real Mac check, allowing early acceptance.
+Both actual current responses and sent prompts are retained in evidence/gemini-final-plan-{initial,revised}-2026-11-17.txt and prompts/gemini-final-plan-2026-11-17.txt / gemini-final-plan-repair-2026-11-17.txt. Older recovered records remain under evidence/history and prompts/history, with missing historical text explicitly labeled. Prior active-plan snapshots are preserved under docs/history.
 
-DAILY ACTIONS
-17 Nov — Verify, 10 min: Check the wallpaper on my Mac. Busy day alternative, 5 min: Note one overlap or readability issue.
-18 Nov — Package, 20 min: Run the final consistency review and accept the release after Verify passes. If a specific issue was observed, allow up to 30 additional minutes for correction and recheck (at most 50 min total). Busy day alternative, 5 min: Record the exact discrepancy or blocker.
-19 Nov — Conditional reserve, up to 20 min: Review or fix only an unresolved issue; zero work if the release is accepted. Busy day alternative, 5 min: Check one changed asset locally.
-20 Nov — Conditional reserve, up to 10 min: Finish any final sanity check by 18:00 IST, before the 20:00 personal cutoff; zero work if accepted. Busy day alternative, 5 min: Confirm the final PNG and summary files are present.
-
-RECOVERY AND EARLY ACCEPTANCE
-After a missed day, carry the earliest unfinished prerequisite into the next available 60-minute allowance. Do not double the load, silently skip evidence, or advance status because time passed. A fallback can record an issue or next step but does not pass the full criterion. If Verify and Package checks both pass early, accept the release immediately; the target dates are latest planned dates, not reasons to wait. Keep optional polish or demo work out of the critical path.
-
-GENUINE GEMINI DEVELOPMENT AND REVIEW
-The original Gemini conversation created the workshop artwork and an earlier portfolio-oriented plan. On 17 November, the current countdown-project brief, exact deadline, real completion evidence, device-check gap, 60-minute allowance and buffer were supplied to Gemini in that same planning conversation.
-The first actual response scheduled core packaging on the reserve days and described normal task durations as capacity. ChatGPT issued a specific repair prompt. Gemini's completed repair moved core acceptance to 18 November, preserved 19–20 November as conditional reserve, corrected the effort arithmetic, and kept Verify/Package open.
-This active plain-text plan is an editorially formatted adoption of that actual corrected response. ChatGPT clarifies that any successful early acceptance is allowed; no wait until a target date is required. No response text, completed device check, reminder or submission has been invented.
-
-Actual current records:
-  prompts/gemini-final-plan-2026-11-17.txt
-  prompts/gemini-final-plan-repair-2026-11-17.txt
-  evidence/gemini-final-plan-initial-2026-11-17.txt
-  evidence/gemini-final-plan-revised-2026-11-17.txt
-Historical recovered records remain under prompts/history and evidence/history. The previous active plan is preserved as evidence/history/active-plan-before-gemini-2026-11-17.txt.
-
-CONTEST DEADLINE — SEPARATE FROM THE PERSONAL GOAL
-Official contest cutoff: 23 November 2026 at 23:59 America/Los_Angeles = 24 November 2026 at 13:29 Asia/Kolkata. The personal goal remains 20 November at 20:00 IST. The owner's final Handshake submission is manual and is separate from producing the package.
+MANUAL CONTEST SUBMISSION — SEPARATE
+Official contest cutoff: 23 November 2026 at 23:59 America/Los_Angeles, equivalent to 24 November at 13:29 Asia/Kolkata. This is separate from the personal 20 November deadline. The authenticated Handshake form was inspected on 17 November; no entry was submitted and no Showcase setting was changed. Reminders remain off. Use docs/share-and-submit.txt for the final manual step.

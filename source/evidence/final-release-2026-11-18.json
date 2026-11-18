@@ -1,0 +1,56 @@
+{
+  "project": "PROOF OF WORK — My Countdown Project Launch",
+  "edition": "2026-11-18",
+  "status": "Ready for manual Handshake submission",
+  "personal_deadline": "2026-11-20T20:00:00+05:30",
+  "timezone": "Asia/Kolkata",
+  "countdown_calendar_days": 2,
+  "milestones_recorded": 5,
+  "device_verification": {
+    "method": "Owner explicitly reported installed locked-Mac fit",
+    "statement": "Applied: readable, no cropping or overlap",
+    "evidence": "mac-fit-confirmed-2026-11-17.txt",
+    "installed_screenshot_captured": false,
+    "final_text_update": "Unchanged layout geometry; final text and date inspected in exported image"
+  },
+  "software": {
+    "focused_renderer_tests_passed": 16,
+    "actual_configuration_boundary_cases": 9,
+    "utc_equivalence_pairs": 3,
+    "ledger_immutability": true,
+    "evidence": "final-boundary-check-2026-11-18.json"
+  },
+  "local_website": {
+    "links_checked": 30,
+    "date_views": 4,
+    "desktop_width": 1470,
+    "mobile_width": 390,
+    "horizontal_overflow": false
+  },
+  "public_verification": {
+    "endpoints_passed": 24,
+    "exact_byte_matches": 23,
+    "asset_manifest_entries": 19,
+    "evidence": "final-public-bytes-2026-11-18.json",
+    "authenticated": false
+  },
+  "publication": {
+    "url": "https://proof-of-work-countdown.siddiqueraiyan2001.chatgpt.site",
+    "version": 3,
+    "version_id": "appgprj_6afc0e3e52f08191aff75a48647e7d9d~appgver_1de1853b54c88191b0560da387631a0a",
+    "commit_sha": "d7565df044a659776d82526dbd94359c409fbd15",
+    "deployment_id": "appgdep_6afd68841b78819189248e4979e33dc7",
+    "status": "succeeded",
+    "updated_at": "2026-11-18T08:58:07.392931+00:00"
+  },
+  "files": {
+    "wallpaper_sha256": "1981ab26ddcb7fe73735002b0c04f83b8bc312f415c5b0bb54e8f5de35433b5d",
+    "summary_sha256": "c5d64dbf0bf562e9c5ae6607c248d670eba0a17cf19a57952ab66fceeddf49c8",
+    "bundle_sha256": "51115e28838019401bcbfb16b2e6e14a8ea50c4b2496cdc63114d1ef4ad29efd",
+    "bundle_files": 6,
+    "bundle_crc": "passed"
+  },
+  "reminders": "Off",
+  "contest_submission": "Not submitted; owner must review and submit the form",
+  "extra_spending_inr": 0
+}

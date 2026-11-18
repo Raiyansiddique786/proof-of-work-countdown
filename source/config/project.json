@@ -12,14 +12,16 @@
   },
   "width": 2560,
   "height": 1664,
-  "device_validated": false,
+  "device_validated": true,
   "daily_capacity_minutes": 60,
   "unavailable_dates": [],
   "device": {
     "name": "Built-in Liquid Retina display",
     "pixel_dimensions_verified": true,
     "pixel_dimensions_evidence": "../evidence/mac-display.txt",
-    "lock_screen_fit_verified": false
+    "lock_screen_fit_verified": true,
+    "lock_screen_fit_evidence": "../evidence/mac-fit-confirmed-2026-11-17.txt",
+    "verification_method": "Owner reported actual installation and locked-screen fit; no screenshot captured."
   },
   "milestones": [
     {
@@ -39,13 +41,13 @@
     },
     {
       "name": "Verify",
-      "completed": false,
-      "evidence": null
+      "completed": true,
+      "evidence": "../evidence/mac-fit-confirmed-2026-11-17.txt"
     },
     {
       "name": "Package",
-      "completed": false,
-      "evidence": null
+      "completed": true,
+      "evidence": "../evidence/package-acceptance-2026-11-17.txt"
     }
   ],
   "tasks": [
@@ -57,14 +59,15 @@
       "fallback": "Note one overlap or readability issue",
       "fallback_minutes": 5,
       "id": "mac-fit",
-      "completed": false,
-      "evidence": null,
+      "completed": true,
+      "evidence": "../evidence/mac-fit-confirmed-2026-11-17.txt",
       "depends_on": [],
       "requires_milestones": [
         "Plan",
         "Design",
         "Build"
-      ]
+      ],
+      "completed_at": "2026-11-17T23:18:44+05:30"
     },
     {
       "date": "2026-11-17",
@@ -89,22 +92,24 @@
       "fallback": "Check the cover and description",
       "fallback_minutes": 5,
       "id": "package-acceptance",
-      "completed": false,
-      "evidence": null,
+      "completed": true,
+      "evidence": "../evidence/package-acceptance-2026-11-17.txt",
       "depends_on": [
         "mac-fit",
         "reviewer-link"
       ],
       "requires_milestones": [
         "Verify"
-      ]
+      ],
+      "completed_at": "2026-11-17T23:20:44+05:30"
     }
   ],
   "default_action": "Review the final submission files",
   "default_fallback": "Check the cover and description",
   "completion": {
-    "recorded": false,
-    "evidence": null
+    "recorded": true,
+    "evidence": "../evidence/package-acceptance-2026-11-17.txt",
+    "recorded_at": "2026-11-17T23:20:44+05:30"
   },
   "layout": "landscape",
   "capacity_assumption": "60 minutes per day; no unavailable days supplied. Scheduled work is shorter to retain recovery time.",
@@ -117,11 +122,13 @@
     "Package"
   ],
   "completion_headline": "Launched",
-  "completion_action": "Review the delivered countdown package",
-  "completion_fallback": "Save one lesson learned",
+  "completion_action": "Submit manually on Handshake",
+  "completion_fallback": "Review the cover and description",
   "deadline_passed_action": "Review the launch status and choose a new deadline",
   "deadline_passed_fallback": "Record the next unfinished stage",
   "cover_message": "One useful lock screen. One clear next action.",
   "cover_credit": "GEMINI ARTWORK \u00b7 CHATGPT COORDINATION, REVIEW + EXPORT",
-  "recovery_note": "Replanned remaining work on 16 November after deleted workspace recovery; original task records preserved in recovery provenance. No missed day recorded as completed."
+  "recovery_note": "Replanned remaining work on 16 November after deleted workspace recovery; original task records preserved in recovery provenance. No missed day recorded as completed.",
+  "completion_minutes": 10,
+  "completion_fallback_minutes": 5
 }

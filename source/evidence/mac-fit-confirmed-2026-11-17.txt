@@ -1,0 +1,7 @@
+MAC LOCK-SCREEN FIT — OWNER CONFIRMED
+Recorded 2026-11-17T23:18:44+05:30
+User answered the installation-and-lock-screen check prompt: “Applied: readable, no cropping or overlap”.
+The prompt asked the owner to set final-lock-screen.png in Mac Wallpaper settings, lock using Control-Command-Q, inspect real clock/account controls against countdown and next action, then unlock normally.
+Evidence source: explicit owner report in this conversation. This is not an agent-captured locked-screen screenshot.
+Checked layout:2560×1664 MacBookAir export, SHA256 6f1fe5b0680b563385f60f4a327220c1bc6d27de02e1e11856882f48b9d338b8.
+Native installation and real-device readability/crop/overlap criteria are accepted from that report. Subsequent status/action text updates retain the same layout, dimensions, font sizes and clock/control reserved areas; exported text is inspected separately. The previous installed edition is retained in evidence/history/pre-acceptance-2026-11-17.

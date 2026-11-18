@@ -108,6 +108,15 @@ def validate_config(raw, base, preview=False):
     capacity = c.get("daily_capacity_minutes")
     if capacity is not None and (type(capacity) is not int or capacity <= 0):
         raise ConfigError("daily_capacity_minutes must be a positive integer when supplied")
+    for field in ("completion_minutes", "completion_fallback_minutes"):
+        if field in c:
+            if type(c[field]) is not int or c[field] <= 0:
+                raise ConfigError(f"{field} must be a positive integer when supplied")
+            if capacity is not None and c[field] > capacity:
+                raise ConfigError(f"{field} exceeds the recorded daily capacity")
+    if ("completion_minutes" in c and "completion_fallback_minutes" in c
+            and c["completion_fallback_minutes"] > c["completion_minutes"]):
+        raise ConfigError("Completion fallback effort cannot exceed normal effort")
     dates, task_ids = set(), set()
     for i, task in enumerate(tasks):
         if not isinstance(task, dict):
@@ -210,7 +219,7 @@ def state_at(c, as_of):
     deadline = instant(c["deadline"], "deadline").astimezone(tz)
     days = (deadline.date() - local.date()).days
     recorded = c["completion"]["recorded"]
-    if recorded:
+    if recorded and as_of >= deadline:
         legacy_headline = "Published" if c["milestone_order"] == LEGACY_MILESTONES else "Completed"
         headline, caption = c.get("completion_headline", legacy_headline), "COMPLETION RECORDED"
     elif as_of >= deadline:
@@ -218,7 +227,9 @@ def state_at(c, as_of):
     elif days == 0:
         headline, caption = "Due today", "BEFORE THE CUTOFF"
     else:
-        headline, caption = str(days), "DAY TO LAUNCH" if days == 1 else "DAYS TO LAUNCH"
+        destination = "DEADLINE" if recorded else "LAUNCH"
+        headline = str(days)
+        caption = f"{'DAY' if days == 1 else 'DAYS'} TO {destination}"
     task, blocked = select_task(c, local.date().isoformat())
     if recorded:
         action = c.get("completion_action", "Review the completed project and save its evidence")
@@ -235,11 +246,13 @@ def state_at(c, as_of):
         action = task["action"] if task else c["default_action"]
         fallback = task["fallback"] if task else c["default_fallback"]
     using_task = task is not None and not recorded and as_of < deadline
+    minutes = c.get("completion_minutes") if recorded else task["minutes"] if using_task else None
+    fallback_minutes = (c.get("completion_fallback_minutes") if recorded
+                        else task["fallback_minutes"] if using_task else None)
     return {"as_of": local.isoformat(timespec="seconds"), "deadline": deadline.isoformat(),
             "calendar_days": days, "headline": headline, "caption": caption,
             "action": action, "fallback": fallback,
-            "minutes": task["minutes"] if task and not recorded and as_of < deadline else None,
-            "fallback_minutes": task["fallback_minutes"] if task and not recorded and as_of < deadline else None,
+            "minutes": minutes, "fallback_minutes": fallback_minutes,
             "completed_milestones": sum(m["completed"] for m in c["milestones"]),
             "milestones": copy.deepcopy(c["milestones"]), "completion_recorded": recorded,
             "task_for_date": using_task and task["date"] == local.date().isoformat(),
@@ -609,7 +622,7 @@ def main(argv=None):
                     "artwork": c["artwork"], "artwork_provenance": c.get("artwork_provenance"),
                     "artwork_sha256": hashlib.sha256(Path(c["_artwork_path"]).read_bytes()).hexdigest(),
                     "png_sha256": hashlib.sha256(primary.read_bytes()).hexdigest(),
-                    "note": "Static PNG; replace wallpaper manually after each fresh export. No reminders or device installation performed."}
+                    "note": "Static PNG; replace wallpaper manually after each fresh export. The renderer does not install wallpaper or configure reminders; device fit evidence is recorded separately."}
         (args.output / f"{prefix}-{date}.json").write_text(json.dumps(manifest, indent=2) + "\n")
         print(f"Exported {primary.resolve()} ({c['width']}×{c['height']}); {state['headline']}; {state['completed_milestones']}/5 recorded")
         return 0

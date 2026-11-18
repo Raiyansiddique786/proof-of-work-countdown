@@ -1,13 +1,14 @@
-RELEASE STATUS — 16 November 2026
+RELEASE STATUS — 18 November 2026
 Active project: PROOF OF WORK — My Countdown Project Launch
-Goal: Finish and package this countdown project by 2026-11-20T20:00:00+05:30 (Asia/Kolkata).
+Personal deadline: 2026-11-20T20:00:00+05:30 (Asia/Kolkata).
 
-Plan — complete. The owner confirmed the goal, cutoff, 60-minute allowance, no excluded dates supplied, five stages and review buffer. See docs/plan.txt for the active schedule; historical Gemini planning evidence is kept separately.
-Design — complete. Genuine Gemini workshop recovered with matching SHA-256; exact Mac composition and typography restored from recorded source. The source image is assets/mac-workshop.png. Final reduced-view inspection is recorded separately when performed.
-Build — complete. Renderer implementation and tests were recovered from genuine saved patch records. Fresh test run: 14 passed, 16 November 2026. The source was restored from this project’s original saved patch records. Current full-size and reduced export were visually inspected on 16 November; no clipping or spelling problem found.
-Verify — incomplete. Software checks can pass without proving installed Mac lock-screen fit. Actual system clock, account controls, crop, notifications and viewing-size check remain pending user observation.
-Package — incomplete. Local final assets are prepared; viewer access is recorded separately after publication. This milestone also requires the final accepted device check. Public URL checks are tracked separately.
-Completion recorded: false. Do not mark completed just because deadline elapsed or local exports exist.
-Reminders: unconfigured. Wallpaper installation: not performed by this session. Extra spending: INR 0.
+Plan — complete. Genuine Gemini current-brief planning and repair responses were captured on 17 November. The repaired schedule protects the 19–20 November recovery buffer. The active plan reflects the owner-confirmed goal, 60-minute daily allowance, no excluded dates supplied, and five stages.
+Design — complete. The original Gemini workshop is retained without alteration (SHA-256 b179e8ec26246a36241966ce4bf5f02e3a1b84d198269b27b2990fc719adc7c2). The final 2560×1664 wallpaper is a disclosed local composition with precise typography. The 18 November full/reduced export, 3:2 cover and illustrative laptop mockup were inspected.
+Build — complete. Editable configuration, dated renderer, bundled licensed font, manual refresh command and separate static website are present. The renderer passed 16 focused tests. The actual final configuration passed date/cutoff/timezone/ledger checks recorded in final-boundary-check-2026-11-18.json.
+Verify — complete. Owner report recorded 17 November: “Applied: readable, no cropping or overlap.” This confirms the installed Mac layout against real controls. No installed-device screenshot was captured. The final status/action text update retains the accepted layout and was reviewed in the exported image. See mac-fit-confirmed-2026-11-17.txt.
+Package — complete. The final wallpaper, matching cover, one-page summary, plan, submission copy and refresh instructions are bundled in submission-files-2026-11-18.zip; six files passed ZIP integrity checks. Local website links, four date views, asset hashes and desktop/mobile layouts passed checks. Version 3 was successfully published to the existing public project website on 18 November. Final anonymous download verification is recorded in final-public-bytes-2026-11-18.json after the check completes.
 
-Owner response on16 November2026: unable to check the lock screen yet. Installed fit remains pending; no assumed confirmation.
+Completion recorded: true. All five project stages are supported by evidence. This records completion of the countdown project, not entry into the contest. Countdown remains two calendar days in the 18 November static export; time passing never changes milestone completion.
+Next action: Submit manually on Handshake (10 minutes). Fallback: Review the cover and description (5 minutes).
+Reminders: optional and off. Installation: performed and reported by the owner, not by automated control. Extra spending: INR 0. Handshake submission: not performed.
+Historical status and genuine initial/revised process records remain preserved; earlier pending states are not overwritten as purported past successes.

@@ -73,6 +73,67 @@ class CountdownTests(unittest.TestCase):
         with self.assertRaises(ConfigError):
             validate_config(self.raw, self.base)
 
+    def test_completed_project_keeps_countdown_and_ledger_across_cutoff(self):
+        names = ["Plan", "Design", "Build", "Verify", "Package"]
+        self.raw.update(milestone_order=names, completion_headline="Launched",
+                        completion_action="Submit manually on Handshake",
+                        completion_fallback="Review the cover and description",
+                        completion_minutes=10, completion_fallback_minutes=5,
+                        daily_capacity_minutes=60)
+        self.raw["milestones"] = [{"name": name, "completed": True, "evidence": "evidence.txt"}
+                                  for name in names]
+        self.raw["completion"] = {"recorded": True, "evidence": "evidence.txt"}
+        raw_before = copy.deepcopy(self.raw)
+        c = validate_config(self.raw, self.base)
+        ledger_before = copy.deepcopy(c)
+        cases = (
+            ("2026-11-17T12:00:00+05:30", "3", "DAYS TO DEADLINE"),
+            ("2026-11-19T23:59:59+05:30", "1", "DAY TO DEADLINE"),
+            ("2026-11-20T00:00:00+05:30", "Due today", "BEFORE THE CUTOFF"),
+            ("2026-11-20T19:59:59.999999+05:30", "Due today", "BEFORE THE CUTOFF"),
+            ("2026-11-20T20:00:00+05:30", "Launched", "COMPLETION RECORDED"),
+            ("2026-11-20T20:00:00.000001+05:30", "Launched", "COMPLETION RECORDED"),
+            ("2026-11-21T12:00:00+05:30", "Launched", "COMPLETION RECORDED"),
+        )
+        for at, headline, caption in cases:
+            with self.subTest(at=at):
+                state = state_at(c, instant(at, "as_of"))
+                self.assertEqual((state["headline"], state["caption"]), (headline, caption))
+                self.assertEqual(state["completed_milestones"], 5)
+                self.assertTrue(state["completion_recorded"])
+                self.assertEqual(state["action"], "Submit manually on Handshake")
+                self.assertEqual(state["fallback"], "Review the cover and description")
+                self.assertEqual((state["minutes"], state["fallback_minutes"]), (10, 5))
+                self.assertIsNone(state["selected_task_date"])
+                self.assertFalse(state["carried_forward"])
+        self.assertEqual(state_at(c, instant("2026-11-20T14:30:00Z", "as_of")),
+                         state_at(c, instant("2026-11-20T20:00:00+05:30", "as_of")))
+        state["milestones"][0]["completed"] = False
+        self.assertEqual(c, ledger_before)
+        self.assertEqual(self.raw, raw_before)
+
+    def test_completion_effort_is_optional_and_validated(self):
+        self.raw["completion"] = {"recorded": True, "evidence": "evidence.txt"}
+        at = instant("2026-11-17T12:00:00+05:30", "as_of")
+        state = state_at(validate_config(self.raw, self.base), at)
+        self.assertIsNone(state["minutes"])
+        self.assertIsNone(state["fallback_minutes"])
+        for field in ("completion_minutes", "completion_fallback_minutes"):
+            for value in (None, True, 0, -1, "10", 1.5):
+                bad = copy.deepcopy(self.raw)
+                bad[field] = value
+                with self.subTest(field=field, value=value), self.assertRaises(ConfigError):
+                    validate_config(bad, self.base)
+            bad = copy.deepcopy(self.raw)
+            bad.update(daily_capacity_minutes=60)
+            bad[field] = 61
+            with self.subTest(field=field, case="capacity"), self.assertRaises(ConfigError):
+                validate_config(bad, self.base)
+        bad = copy.deepcopy(self.raw)
+        bad.update(completion_minutes=5, completion_fallback_minutes=10)
+        with self.assertRaises(ConfigError):
+            validate_config(bad, self.base)
+
     def test_invalid_essentials_offsets_evidence_and_sample(self):
         for key, value in (("deadline", None), ("deadline", "2026-11-20T20:00:00"),
                            ("timezone", "Mars/Olympus"),

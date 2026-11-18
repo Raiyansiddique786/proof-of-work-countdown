@@ -1,0 +1,166 @@
+{
+  "checked_at": "2026-11-18T14:27:44.691738+05:30",
+  "config_sha256": "18898bc2df9bb90751f08a4bd0469fb561ae3ed5e19641bed7b6701c30d36353",
+  "active_goal": "PROOF OF WORK \u2014 My Countdown Project Launch",
+  "personal_deadline": "2026-11-20T20:00:00+05:30",
+  "timezone": "Asia/Kolkata",
+  "cases": [
+    {
+      "as_of": "2026-11-18T00:00:00+05:30",
+      "expected_headline": "2",
+      "actual_headline": "2",
+      "caption": "DAYS TO DEADLINE",
+      "milestones": 5,
+      "completion_recorded": true,
+      "result": "passed"
+    },
+    {
+      "as_of": "2026-11-18T23:59:59+05:30",
+      "expected_headline": "2",
+      "actual_headline": "2",
+      "caption": "DAYS TO DEADLINE",
+      "milestones": 5,
+      "completion_recorded": true,
+      "result": "passed"
+    },
+    {
+      "as_of": "2026-11-19T00:00:00+05:30",
+      "expected_headline": "1",
+      "actual_headline": "1",
+      "caption": "DAY TO DEADLINE",
+      "milestones": 5,
+      "completion_recorded": true,
+      "result": "passed"
+    },
+    {
+      "as_of": "2026-11-19T23:59:59.999999+05:30",
+      "expected_headline": "1",
+      "actual_headline": "1",
+      "caption": "DAY TO DEADLINE",
+      "milestones": 5,
+      "completion_recorded": true,
+      "result": "passed"
+    },
+    {
+      "as_of": "2026-11-20T00:00:00+05:30",
+      "expected_headline": "Due today",
+      "actual_headline": "Due today",
+      "caption": "BEFORE THE CUTOFF",
+      "milestones": 5,
+      "completion_recorded": true,
+      "result": "passed"
+    },
+    {
+      "as_of": "2026-11-20T19:59:59.999999+05:30",
+      "expected_headline": "Due today",
+      "actual_headline": "Due today",
+      "caption": "BEFORE THE CUTOFF",
+      "milestones": 5,
+      "completion_recorded": true,
+      "result": "passed"
+    },
+    {
+      "as_of": "2026-11-20T20:00:00+05:30",
+      "expected_headline": "Launched",
+      "actual_headline": "Launched",
+      "caption": "COMPLETION RECORDED",
+      "milestones": 5,
+      "completion_recorded": true,
+      "result": "passed"
+    },
+    {
+      "as_of": "2026-11-20T20:00:00.000001+05:30",
+      "expected_headline": "Launched",
+      "actual_headline": "Launched",
+      "caption": "COMPLETION RECORDED",
+      "milestones": 5,
+      "completion_recorded": true,
+      "result": "passed"
+    },
+    {
+      "as_of": "2026-11-21T00:00:00+05:30",
+      "expected_headline": "Launched",
+      "actual_headline": "Launched",
+      "caption": "COMPLETION RECORDED",
+      "milestones": 5,
+      "completion_recorded": true,
+      "result": "passed"
+    }
+  ],
+  "utc_equivalence": [
+    {
+      "utc": "2026-11-19T18:29:59.999999Z",
+      "local": "2026-11-19T23:59:59.999999+05:30",
+      "result": "passed"
+    },
+    {
+      "utc": "2026-11-19T18:30:00Z",
+      "local": "2026-11-20T00:00:00+05:30",
+      "result": "passed"
+    },
+    {
+      "utc": "2026-11-20T14:30:00Z",
+      "local": "2026-11-20T20:00:00+05:30",
+      "result": "passed"
+    }
+  ],
+  "raw_and_validated_ledgers_unchanged": true,
+  "config_file_unchanged": true,
+  "evidence_references": [
+    {
+      "reference": "../evidence/mac-art-provenance.txt",
+      "sha256": "55d5f0639c7a375b199934452ddb614f18c2ca8d36dfb1479f42af874166d741"
+    },
+    {
+      "reference": "../evidence/mac-display.txt",
+      "sha256": "cc35467c1054efed3cb9d59da926490e5c26335522e0e9022f79a37fd297fdea"
+    },
+    {
+      "reference": "../evidence/mac-fit-confirmed-2026-11-17.txt",
+      "sha256": "a28b7e782bfae655e7326f68add5691101f4deb6687e2d49f14230bc85a27c4d"
+    },
+    {
+      "reference": "../evidence/release-status.txt",
+      "sha256": "42a1d60711a02698aa9df719fdefd356b27313a0e965d8dedfa8a3ab0bcb2adf"
+    },
+    {
+      "reference": "../evidence/release-status.txt",
+      "sha256": "42a1d60711a02698aa9df719fdefd356b27313a0e965d8dedfa8a3ab0bcb2adf"
+    },
+    {
+      "reference": "../evidence/release-status.txt",
+      "sha256": "42a1d60711a02698aa9df719fdefd356b27313a0e965d8dedfa8a3ab0bcb2adf"
+    },
+    {
+      "reference": "../evidence/mac-fit-confirmed-2026-11-17.txt",
+      "sha256": "a28b7e782bfae655e7326f68add5691101f4deb6687e2d49f14230bc85a27c4d"
+    },
+    {
+      "reference": "../evidence/package-acceptance-2026-11-17.txt",
+      "sha256": "178e91886e1048096c771e4a2a15e81611367a8fcc41177eae555e44d8683024"
+    },
+    {
+      "reference": "../evidence/mac-fit-confirmed-2026-11-17.txt",
+      "sha256": "a28b7e782bfae655e7326f68add5691101f4deb6687e2d49f14230bc85a27c4d"
+    },
+    {
+      "reference": "../evidence/verification-audit-2026-11-17.txt",
+      "sha256": "a7bb25429d53701b362a5b9780af30f0e908e204f677fab5eb3e63af151b2a59"
+    },
+    {
+      "reference": "../evidence/package-acceptance-2026-11-17.txt",
+      "sha256": "178e91886e1048096c771e4a2a15e81611367a8fcc41177eae555e44d8683024"
+    },
+    {
+      "reference": "../evidence/package-acceptance-2026-11-17.txt",
+      "sha256": "178e91886e1048096c771e4a2a15e81611367a8fcc41177eae555e44d8683024"
+    }
+  ],
+  "current_wallpaper_sha256": "1981ab26ddcb7fe73735002b0c04f83b8bc312f415c5b0bb54e8f5de35433b5d",
+  "milestones_recorded": 5,
+  "completion_recorded": true,
+  "manual_handshake_submission": "pending; project completion does not claim submission",
+  "installed_device_evidence": "Owner report dated17November2026; no installed screenshot captured",
+  "result": "passed",
+  "evidence_references_checked_at": "2026-11-18T14:31:32.767533+05:30"
+}

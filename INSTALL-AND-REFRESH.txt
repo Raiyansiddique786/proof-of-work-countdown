@@ -1,6 +1,6 @@
 VIEW AND INSTALL THE SHARED EDITION
 The shared review image is final-lock-screen.png at the repository root. Open its GitHub file page and use Download raw file, or download the repository ZIP and extract it.
-On the Mac, open System Settings > Wallpaper > Add Photo and select the PNG. Then choose Apple menu > Lock Screen (Control-Command-Q). Inspect real clock/control overlap, cropping and normal-size text. The native2560x1664 resolution is confirmed; actual installed fit remains pending. The device-mockup.png image is illustrative.
+On the Mac, open System Settings > Wallpaper > Add Photo and select the PNG. Then choose Apple menu > Lock Screen (Control-Command-Q). Inspect real clock/control overlap, cropping and normal-size text. The native2560x1664 resolution is confirmed. The owner reported the actual installed layout readable with no cropping or overlap on17November; no locked-screen screenshot was captured. The current18November edition updates countdown/status/action text in the same checked layout, with those text changes inspected locally. Read DEVICE-CHECK.txt for the precise evidence. The device-mockup.png image is illustrative.
 
 REFRESH LOCALLY
 From the extracted source directory:
@@ -12,7 +12,7 @@ New full images and previews appear in source/exports/current. The proposed refr
 This command does not publish changes to GitHub, alter device settings, configure reminders or record completion. The PDF at the repository root is a dated release snapshot; do not describe it as a live document.
 
 ACCURACY
-The countdown uses Asia/Kolkata calendar dates and an unambiguous deadline instant. On the target date before20:00IST it says Due today; at/after20:00IST it says Deadline passed unless actual completion is recorded. Update configuration only with real work evidence. Time passing never fills a milestone.
+The countdown uses Asia/Kolkata calendar dates and an unambiguous deadline instant. The18November edition shows2 days remaining and5/5 completed project stages. Recorded completion does not hide the countdown before the cutoff. On the target date before20:00IST it says Due today; at/after20:00IST this completed project says Launched. An unfinished goal would say Deadline passed. Update configuration only with real work evidence. Time passing never fills a milestone. Project completion is separate from manual Handshake submission, which remains the next action.
 The bundled Lexend font is supplied with its SIL Open Font License. Core export needs Python3.10+ and Pillow11.3.0. Reminders are optional and unconfigured.
 
 Apple instructions:

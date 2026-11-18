@@ -1,3 +1,34 @@
-PUBLIC LINK CHECK —17November2026
-Extract from the independent local verification audit. Twelve anonymous HTTPS requests to the published project page and principal assets returned200. Eleven non-HTML responses matched the corresponding local files byteforbyte. No cookies or authorization headers were used. Public access passed independently of the separate Mac installationcheck. This evidence closes the reviewer-link task only.
-Project: https://proof-of-work-countdown.siddiqueraiyan2001.chatgpt.site
+INDEPENDENT READ-ONLY VERIFICATION AUDIT — 17 November 2026
+Project: PROOF OF WORK — My Countdown Project Launch
+Scope: current active files, existing tests, current configuration and anonymous public asset access. No UI/device inspection, publication, milestone edits or asset changes were performed by this audit. This report is the only intentional workspace write.
+
+EXECUTED AND PASSED
+1. .venv/bin/python -B -m unittest renderer.test_render -v
+   Result: all 14 existing tests passed. Coverage includes exact deadline boundaries, UTC equivalence, evidence requirements, missed-task carry-forward, capacity/dependency validation, legacy portrait and active landscape rendering.
+2. .venv/bin/python -B website/scripts/check-site.py
+   Result: passed; 25 local links, four preview states and all recorded asset hashes checked. Release-specific expected edition is 17 November 2026.
+3. Seven additional checks against the actual config/project.json: 17 November gives 3; 19 November gives 1; 20 November at midnight and immediately before 20:00 IST gives Due today; exact cutoff, immediately after it and equivalent 14:30 UTC give Deadline passed. All retain 3 completed milestones and completion_recorded=false. Configuration remained unchanged.
+4. final-entry/final-lock-screen.png is 2560 x 1664 and its SHA-256 matches the executed Nov17 export manifest:
+   7ba3238c15cff74e2efdd6e6607528dfce5554e5285615c041ea31018ee4f21e
+   final-entry/cover.png is 1500 x 1000. Submission title is 43 characters and description is 384, within the previously observed limits of 120 and 500.
+5. Anonymous HTTPS GETs, without login or cookies, returned HTTP 200 for all 12 checked paths at:
+   https://proof-of-work-countdown.siddiqueraiyan2001.chatgpt.site/
+   index.html; project-data.json; app.js; styles.css; assets/final-lock-screen.png; assets/cover.png; assets/project-summary.pdf; assets/device-mockup.png; assets/preview-before.png; assets/preview-today.png; assets/preview-passed.png; assets/Lexend.ttf.
+   All 11 non-HTML responses matched current local website/dist bytes exactly. HTML includes the correct project identity; hosting injects additional markup, so byte identity is not expected. These are access/integrity checks, not a new interactive browser or installed-device test.
+
+CURRENT VERIFIED STATE
+The public Nov17 edition is accessible and serves a 3-day countdown to 20 November 2026 at 20:00 Asia/Kolkata. The local dated PNG, public copy and manifest agree. Plan, Design and Build have recorded evidence. Verify and Package remain open in the current ledger. The next action correctly carries forward the unfinished Mac check from Nov16. Original Gemini artwork hash/provenance is retained; no new Gemini conversation was inferred.
+
+STILL-NEEDED EVIDENCE
+Actual Mac lock-screen observation is absent from current files. config/project.json explicitly has device_validated=false and lock_screen_fit_verified=false. final-entry/device-proof.txt is a pending statement; the laptop mockup is not proof. The required observation must show/check the actual locked Mac with this wallpaper, native clock/account controls, crop and normal-size legibility. Record the date and findings; preserve an appropriate screenshot only if genuinely captured. A browser screenshot or native display resolution alone cannot close this stage.
+Public URL access is now independently confirmed; this is not missing. Package acceptance is still gated on the real device check under the active plan. Manual contest submission and its confirmation are also absent, but submission is a subsequent owner action rather than evidence of renderer correctness.
+The current goal/stages are a disclosed local adaptation of earlier genuine Gemini work. This audit does not establish organizer acceptance of the process or interpretation of the automation clause. It does not claim the revised brief was newly processed by Gemini.
+
+PRESENTATION IMPROVEMENTS THAT REMAIN TRUTHFUL
+Replace broad wording such as 'unverified project' with precise scope: 'Native-size export, countdown behavior and public downloads checked. Final step: inspect the wallpaper on the locked Mac.' After a genuine check, replace this sentence with its actual observation and evidence date.
+Do not remove a pending-device statement and simultaneously imply installed fit passed. Public pages can retain concise origin attribution and a single clear installation step instead of repeating lengthy internal QA/process caveats. Preserve detailed provenance and actual limitations in the supporting records.
+The site check currently asserts that the literal word 'pending' exists and hardcodes the Nov17 headline/date. If the site copy or edition changes, update these release-specific checks to assert factual status rather than preserving obsolete wording merely to pass a test.
+The local summary builder contains fixed Nov16-18 schedule rows and a pending-device sentence. Update and rebuild the summary after actual milestone acceptance so the PDF, website, configuration, next action and exported image stay consistent. Do not mark a missed day complete.
+
+AUDIT CONCLUSION
+Software and anonymous public delivery checks pass for the current Nov17 edition. No reason was found to redo the artwork or rebuild the project. Fully verified Mac fit cannot be claimed from the existing evidence. One real installed-device observation is the concrete remaining verification dependency; any later asset/status changes require focused re-export, inspection, synchronization and public-byte recheck.
